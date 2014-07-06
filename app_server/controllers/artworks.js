@@ -4,7 +4,7 @@
  */
 
 module.exports.homelist = function(req, res){
-  res.render('index', { title: 'Home' });
+  res.render('artworks-list', { title: 'Home' });
 };
 
 /*
